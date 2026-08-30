@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^git status --short --branch; echo \"---\"; git remote -v; echo \"---\"; git config --get user\\.name; git config --get user\\.email; echo \"---\"; git rev-parse --show-toplevel 2>nul; echo \"---\"; git branch --show-current; echo \"---\"; git ls-files --stage \\| head$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

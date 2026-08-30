@@ -1,77 +1,587 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/assets/icons8-student-48.png" type="image/x-icon">
+    <meta name="description" content="DUALBERT - Student Profile of Albert and Albert Wendy.">
+    <meta name="author" content="Albert & Albert Wendy">
+    <link rel="icon" href="assets/icons8-student-48.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <title>DUALBERT</title>
+    <link rel="stylesheet" href="style.css">
+
+    <title>DUALBERT | Student Profile</title>
+
 </head>
+
+
 <body>
-    <header>
-        <img src="" alt="header_image">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#aboutus">About Us</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="brand" aria-label="DUALBERT Home">
+                <span class="brand-mark">D²</span>
+                <span class="brand-name">DUALBERT</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li>
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about" class="nav-link">About Us</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
             </ul>
+
         </nav>
-        <h1>Two Students, One Digital Space.</h1>
-        <p>In DUALBERT we synchronize our ideas and create amazing projects together.</p>
-        <p>This is a simple student profile page created for educational purposes.</p>
+
+
+        <!-- =================================================
+            HERO
+        ================================================== -->
+
+        <section class="hero" id="home">
+
+            <img src="assets/header_image.png" alt="DUALBERT technology header" class="hero-image">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+
+                    <span class="status-dot"></span>
+
+                    STUDENT PROFILE
+
+                </div>
+
+                <h1 class="hero-title">
+                    Two Students,
+                    <span>One Digital Space.</span>
+                </h1>
+
+                <p class="hero-description">
+                    In DUALBERT, we synchronize our ideas,
+                    skills, and creativity to create meaningful
+                    digital experiences together.
+                </p>
+
+                <p class="hero-subtitle">
+                    A student profile website created for
+                    educational purposes.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#about" class="btn btn-primary">Meet Us
+                        <span>→</span>
+                    </a>
+
+                    <a href="#skills" class="btn btn-outline">Explore Skills</a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+
+                <span>SCROLL TO EXPLORE</span>
+
+                <span class="scroll-line"></span>
+
+            </div>
+
+        </section>
+
     </header>
+
+    <!-- =====================================================
+        MAIN CONTENT
+    ====================================================== -->
+
     <main>
-        <section id="aboutus">
-            <img src="" alt="our_image">
-            <h2>About Us</h2>
-            <p>We are a duo of Albert that passionate students who love to learn and create. We are dedicated to developing innovative solutions and sharing knowledge with the community.</p>
-            <img src="" alt="albert_image">
-            <p>Albert is a passionate web developer with a keen interest in creating responsive and user-friendly websites.</p>
-            <p>Age : 23</p>
-            <p>Location : Kabupaten Tangerang, Indonesia</p>
-            <p>University : Bunda Mulia University</p>
-            <p>NIM : 31230021</p>
-            <img src="" alt="albertwendy_image">
-            <p>Wendy is a skilled mobile app developer who enjoys building intuitive and engaging applications for various platforms.</p>
-            <p>Age : 21</p>
-            <p>Location : Kota Tangerang, Indonesia</p>
-            <p>University : Bunda Mulia University</p>
-            <p>NIM : 31230022</p> <!-- Add Wendy's NIM here -->
+
+        <!-- =================================================
+            ABOUT US
+        ================================================== -->
+
+        <section class="section about-section" id="about">
+
+            <div class="container">
+
+                <!-- Section Heading -->
+
+                <div class="section-heading">
+
+                    <span class="section-number">01 — ABOUT US</span>
+
+                    <h2>Meet the minds
+                        <span>behind DUALBERT.</span>
+                    </h2>
+
+                    <p>
+                        We are two passionate students who love
+                        to learn, explore technology, and create
+                        digital solutions together.
+                    </p>
+
+                </div>
+
+                <!-- Introduction -->
+
+                <div class="about-introduction">
+
+                    <div class="about-line"></div>
+
+                    <p>
+                        DUALBERT represents our collaboration as
+                        students with different interests,
+                        perspectives, and skills. Through technology,
+                        we combine our ideas and turn them into
+                        meaningful projects.
+                    </p>
+
+                </div>
+
+                <!-- Profile Cards -->
+
+                <div class="profile-grid">
+
+                    <!-- =====================================
+                        ALBERT
+                    ====================================== -->
+
+                    <article class="profile-card">
+
+                        <div class="profile-image-wrapper">
+
+                            <img src="assets/albert.jpg" alt="Albert profile photo" class="profile-image">
+
+                            <span class="profile-number">01</span>
+
+                        </div>
+
+                        <div class="profile-content">
+
+                            <span class="profile-role">INFORMATION SYSTEMS STUDENT</span>
+
+                            <h3>Albert</h3>
+
+                            <p class="profile-bio">
+                                A passionate student interested
+                                in web development, information
+                                systems, and software development.
+                            </p>
+
+                            <!-- Personal Information -->
+
+                            <div class="profile-info">
+
+                                <div class="info-item">
+
+                                    <span class="info-label">AGE</span>
+
+                                    <span class="info-value">23</span>
+
+                                </div>
+
+                                <div class="info-item">
+
+                                    <span class="info-label">LOCATION</span>
+
+                                    <span class="info-value">Tangerang Regency</span>
+
+                                </div>
+
+                                <div class="info-item">
+
+                                    <span class="info-label">UNIVERSITY</span>
+
+                                    <span class="info-value">Bunda Mulia University</span>
+
+                                </div>
+
+                                <div class="info-item">
+
+                                    <span class="info-label">STUDENT ID</span>
+
+                                    <span class="info-value">31230021</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- =====================================
+                        ALBERT WENDY
+                    ====================================== -->
+
+                    <article class="profile-card">
+
+                        <div class="profile-image-wrapper">
+
+                            <img src="assets/albert-wendy.jpg" alt="Albert Wendy profile photo" class="profile-image">
+
+                            <span class="profile-number">02</span>
+
+                        </div>
+
+                        <div class="profile-content">
+
+                            <span class="profile-role">INFORMATION SYSTEMS STUDENT</span>
+
+                            <h3>Albert Wendy</h3>
+
+                            <p class="profile-bio">
+                                A skilled student interested in
+                                mobile application development,
+                                user experience, and digital
+                                product development.
+                            </p>
+
+                            <!-- Personal Information -->
+
+                            <div class="profile-info">
+
+                                <div class="info-item">
+
+                                    <span class="info-label">AGE</span>
+
+                                    <span class="info-value">21</span>
+
+                                </div>
+
+                                <div class="info-item">
+
+                                    <span class="info-label">LOCATION</span>
+
+                                    <span class="info-value">Tangerang City</span>
+
+                                </div>
+
+
+                                <div class="info-item">
+
+                                    <span class="info-label">UNIVERSITY</span>
+
+                                    <span class="info-value">Bunda Mulia University</span>
+
+                                </div>
+
+                                <div class="info-item">
+
+                                    <span class="info-label">STUDENT ID</span>
+
+                                    <span class="info-value">31230022</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
         </section>
-        <section id="skills">
-            <h2>Our Skills</h2>
-            <ul>
-                <img src="/assets/icons8-web-50.png" alt="web_logo">
-                <li>Web Development (HTML, CSS, JavaScript)</li>
-                <img src="/assets/icons8-mobile-50.png" alt="mobile_logo">
-                <li>Mobile App Development (React Native, Flutter)</li>
-                <img src="/assets/icons8-ui-50.png" alt="ui_logo">
-                <li>UI/UX Design (Figma)</li>
-                <img src="/assets/icons8-database-50.png" alt="data_logo">
-                <li>Database Management (SQL, NoSQL)</li>
-            </ul>
+
+        <!-- =================================================
+            SKILLS
+        ================================================== -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">02 — OUR SKILLS</span>
+
+                    <h2>Tools &
+                        <span>technologies.</span>
+                    </h2>
+
+                    <p>
+                        Technologies and skills that we use
+                        to build digital projects.
+                    </p>
+
+                </div>
+
+                <!-- Skills Grid -->
+
+                <div class="skills-grid">
+
+                    <!-- Web Development -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+
+                            <img src="assets/icons8-web-50.png" alt="Web development icon">
+
+                        </div>
+
+                        <div class="skill-content">
+
+                            <span class="skill-number">01</span>
+
+                            <h3>Web Development</h3>
+
+                            <p>
+                                Creating responsive and
+                                interactive websites using
+                                modern web technologies.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Mobile Development -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+
+                            <img src="assets/icons8-app-50.png" alt="Mobile development icon">
+
+                        </div>
+
+                        <div class="skill-content">
+
+                            <span class="skill-number">02</span>
+
+                            <h3>Mobile Development</h3>
+
+                            <p>
+                                Developing intuitive mobile
+                                applications for different
+                                platforms.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>React Native</span>
+                                <span>Flutter</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- UI UX -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+
+                            <img src="assets/icons8-ui-50.png" alt="UI UX design icon">
+
+                        </div>
+
+                        <div class="skill-content">
+
+                            <span class="skill-number">03</span>
+
+                            <h3>UI / UX Design</h3>
+
+                            <p>
+                                Designing clean, intuitive,
+                                and user-friendly digital
+                                interfaces.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>Figma</span>
+                                <span>UI Design</span>
+                                <span>UX</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Database -->
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+
+                            <img src="assets/icons8-database-50.png" alt="Database icon">
+
+                        </div>
+
+                        <div class="skill-content">
+
+                            <span class="skill-number">04</span>
+
+                            <h3>Database Management</h3>
+
+                            <p>
+                                Managing and organizing data
+                                using relational and
+                                non-relational databases.
+                            </p>
+
+                            <div class="skill-tags">
+
+                                <span>SQL</span>
+                                <span>MySQL</span>
+                                <span>NoSQL</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
         </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or would like to collaborate with us, feel free to reach out!</p>
-            <img src="/assets/icons8-mail-50.png" alt="email_logo">
-            <ul>
-                <li>Email: <a href="mailto:dualbert@example.com">dualbert@example.com</a></li>
-            </ul>
+
+        <!-- =================================================
+            CONTACT
+        ================================================== -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-card">
+
+                    <div class="contact-content">
+
+                        <span class="section-number">03 — CONTACT</span>
+
+                        <h2>Let's build something
+                            <span>together.</span>
+                        </h2>
+
+                        <p>
+                            Have a question, project idea,
+                            or simply want to say hello?
+                            Feel free to reach out to us.
+                        </p>
+
+                        <a href="mailto:dualbert@example.com" class="email-link">
+
+                            <img src="assets/icons8-mail-50.png" alt="Email icon">
+
+                            <span>dualbert@example.com</span>
+
+                        </a>
+
+                    </div>
+
+                    <div class="contact-decoration">
+
+                        <span class="decoration-circle"></span>
+
+                        <span class="decoration-line"></span>
+
+                        <span class="decoration-text">DUALBERT</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
+
     </main>
-    <footer>
-        <form action="" id="subscription-form">
-            <label for="email">Subscribe to our newsletter:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            <button type="submit">Subscribe</button>    
-        </form>
-        <p>© 2026 DUALBERT. All rights reserved.</p>
+
+    <!-- =====================================================
+        FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <!-- Newsletter -->
+
+            <div class="newsletter">
+
+                <div class="newsletter-text">
+
+                    <span class="newsletter-label">STAY CONNECTED</span>
+
+                    <h3>Subscribe to our newsletter.</h3>
+
+                    <p>
+                        Get updates about our latest projects
+                        and activities.
+                    </p>
+
+                </div>
+
+                <form action="" method="post" class="newsletter-form" id="subscription-form">
+
+                    <label for="email" class="sr-only">Email address</label>
+
+                    <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+
+                    <button type="submit">Subscribe</button>
+
+                </form>
+
+            </div>
+
+            <!-- Footer Bottom -->
+
+            <div class="footer-bottom">
+
+                <a href="#home" class="footer-brand">DUALBERT</a>
+
+                <p>
+                    © 2026 DUALBERT.
+                    All rights reserved.
+                </p>
+
+                <span class="footer-code">TWO MINDS // ONE SPACE</span>
+
+            </div>
+
+        </div>
+
     </footer>
+
 </body>
+
 </html>
