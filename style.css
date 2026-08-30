@@ -1,20 +1,5 @@
 /* =========================================================
-   DUALBERT
-   Student Profile Website
-   Albert & Albert Wendy
-
-   Typography:
-   - Space Grotesk
-   - Inter
-   - JetBrains Mono
-
-   Theme:
-   Dark Navy / Electric Blue / Cyan
-   ========================================================= */
-
-
-/* =========================================================
-   01. ROOT
+    01. ROOT
    ========================================================= */
 
 :root {
@@ -30,7 +15,6 @@
     --font-code:
         'JetBrains Mono', monospace;
 
-
     /* ---------- BACKGROUND ---------- */
 
     --bg:
@@ -41,7 +25,6 @@
 
     --bg-tertiary:
         #032A5A;
-
 
     /* ---------- BRAND ---------- */
 
@@ -54,7 +37,6 @@
     --cyan:
         #17C7FE;
 
-
     /* ---------- TEXT ---------- */
 
     --text:
@@ -66,7 +48,6 @@
     --text-muted:
         #999DA4;
 
-
     /* ---------- BORDER ---------- */
 
     --border:
@@ -74,7 +55,6 @@
 
     --border-hover:
         rgba(23, 199, 254, 0.60);
-
 
     /* ---------- GRADIENT ---------- */
 
@@ -86,7 +66,6 @@
             #17C7FE
         );
 
-
     --gradient-text:
         linear-gradient(
             90deg,
@@ -94,7 +73,6 @@
             #0F9BF5,
             #17C7FE
         );
-
 
     --gradient-dark:
         linear-gradient(
@@ -104,7 +82,6 @@
             #032A5A
         );
 
-
     /* ---------- EFFECT ---------- */
 
     --glow-blue:
@@ -113,12 +90,10 @@
     --glow-cyan:
         0 0 35px rgba(23, 199, 254, 0.25);
 
-
     /* ---------- WIDTH ---------- */
 
     --container:
         1200px;
-
 
     /* ---------- RADIUS ---------- */
 
@@ -134,7 +109,6 @@
     --radius-pill:
         999px;
 
-
     /* ---------- TRANSITION ---------- */
 
     --transition:
@@ -142,9 +116,8 @@
 
 }
 
-
 /* =========================================================
-   02. RESET
+    02. RESET
    ========================================================= */
 
 * {
@@ -160,14 +133,12 @@
 
 }
 
-
 html {
 
     scroll-behavior:
         smooth;
 
 }
-
 
 body {
 
@@ -191,7 +162,6 @@ body {
 
 }
 
-
 img {
 
     display:
@@ -201,7 +171,6 @@ img {
         100%;
 
 }
-
 
 a {
 
@@ -213,14 +182,12 @@ a {
 
 }
 
-
 ul {
 
     list-style:
         none;
 
 }
-
 
 button,
 input {
@@ -230,9 +197,8 @@ input {
 
 }
 
-
 /* =========================================================
-   03. CONTAINER
+    03. CONTAINER
    ========================================================= */
 
 .container {
@@ -245,9 +211,8 @@ input {
 
 }
 
-
 /* =========================================================
-   04. GLOBAL BACKGROUND
+    04. GLOBAL BACKGROUND
    ========================================================= */
 
 body::before {
@@ -283,9 +248,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   05. HEADER
+    05. HEADER
    ========================================================= */
 
 .site-header {
@@ -295,9 +259,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   06. NAVBAR
+    06. NAVBAR
    ========================================================= */
 
 .navbar {
@@ -355,9 +318,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   07. BRAND
+    07. BRAND
    ========================================================= */
 
 .brand {
@@ -372,7 +334,6 @@ body::before {
         10px;
 
 }
-
 
 .brand-mark {
 
@@ -407,7 +368,7 @@ body::before {
         var(--font-primary);
 
     font-size:
-        1rem;
+        1.25rem;
 
     font-weight:
         700;
@@ -416,7 +377,6 @@ body::before {
         0 0 20px rgba(15, 155, 245, 0.20);
 
 }
-
 
 .brand-name {
 
@@ -446,9 +406,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   08. NAV MENU
+    08. NAV MENU
    ========================================================= */
 
 .nav-menu {
@@ -463,7 +422,6 @@ body::before {
         35px;
 
 }
-
 
 .nav-link {
 
@@ -484,7 +442,6 @@ body::before {
 
 }
 
-
 .nav-link:hover,
 .nav-link.active {
 
@@ -492,7 +449,6 @@ body::before {
         var(--cyan);
 
 }
-
 
 .nav-link::after {
 
@@ -528,7 +484,6 @@ body::before {
 
 }
 
-
 .nav-link:hover::after,
 .nav-link.active::after {
 
@@ -537,9 +492,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   09. HERO
+    09. HERO
    ========================================================= */
 
 .hero {
@@ -564,9 +518,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   10. HERO IMAGE
+    10. HERO IMAGE
    ========================================================= */
 
 .hero-image {
@@ -594,9 +547,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   11. HERO OVERLAY
+    11. HERO OVERLAY
    ========================================================= */
 
 .hero-overlay {
@@ -622,9 +574,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   12. HERO GLOW
+    12. HERO GLOW
    ========================================================= */
 
 .hero::after {
@@ -661,9 +612,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   13. HERO CONTENT
+    13. HERO CONTENT
    ========================================================= */
 
 .hero-content {
@@ -676,9 +626,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   14. HERO BADGE
+    14. HERO BADGE
    ========================================================= */
 
 .hero-badge {
@@ -717,13 +666,12 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.65rem;
+        0.8rem;
 
     letter-spacing:
         0.08em;
 
 }
-
 
 .status-dot {
 
@@ -746,13 +694,13 @@ body::before {
 
 
 /* =========================================================
-   15. HERO TITLE
+    15. HERO TITLE
    ========================================================= */
 
 .hero-title {
 
     max-width:
-        850px;
+        900px;
 
     margin-bottom:
         28px;
@@ -761,24 +709,29 @@ body::before {
         var(--font-primary);
 
     font-size:
-        clamp(3.2rem, 7vw, 6.5rem);
+        clamp(3.3rem, 7vw, 7rem);
 
     font-weight:
-        700;
+        800;
 
     line-height:
-        0.98;
+        0.95;
 
     letter-spacing:
-        -0.06em;
+        -0.065em;
+
+    text-wrap:
+        balance;
 
 }
-
 
 .hero-title span {
 
     display:
-        block;
+        inline-block;
+
+    padding-bottom:
+        0.12em;
 
     background:
         var(--gradient-text);
@@ -792,11 +745,28 @@ body::before {
     color:
         transparent;
 
+    -webkit-text-fill-color:
+        transparent;
+
+    line-height:
+        0.9;
+
+    vertical-align:
+        bottom;
+
+    overflow:
+        visible;
+
+    transform:
+        translateY(0.02em);
+
+    text-shadow:
+        0 0 18px rgba(39, 187, 255, 0.12);
+
 }
 
-
 /* =========================================================
-   16. HERO DESCRIPTION
+    16. HERO DESCRIPTION
    ========================================================= */
 
 .hero-description {
@@ -811,13 +781,12 @@ body::before {
         var(--text-secondary);
 
     font-size:
-        1rem;
+        1.25rem;
 
     line-height:
         1.8;
 
 }
-
 
 .hero-subtitle {
 
@@ -831,13 +800,12 @@ body::before {
         var(--text-muted);
 
     font-size:
-        0.85rem;
+        1rem;
 
 }
 
-
 /* =========================================================
-   17. HERO BUTTONS
+    17. HERO BUTTONS
    ========================================================= */
 
 .hero-buttons {
@@ -852,7 +820,6 @@ body::before {
         12px;
 
 }
-
 
 .btn {
 
@@ -885,7 +852,6 @@ body::before {
 
 }
 
-
 .btn-primary {
 
     color:
@@ -899,7 +865,6 @@ body::before {
 
 }
 
-
 .btn-primary:hover {
 
     transform:
@@ -909,7 +874,6 @@ body::before {
         0 12px 40px rgba(15, 155, 245, 0.40);
 
 }
-
 
 .btn-outline {
 
@@ -923,7 +887,6 @@ body::before {
         var(--text);
 
 }
-
 
 .btn-outline:hover {
 
@@ -941,9 +904,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   18. HERO SCROLL
+    18. HERO SCROLL
    ========================================================= */
 
 .hero-scroll {
@@ -976,13 +938,12 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.6rem;
+        1rem;
 
     letter-spacing:
         0.08em;
 
 }
-
 
 .scroll-line {
 
@@ -997,9 +958,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   19. SECTION
+    19. SECTION
    ========================================================= */
 
 .section {
@@ -1012,7 +972,6 @@ body::before {
 
 }
 
-
 .section + .section {
 
     border-top:
@@ -1020,9 +979,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   20. SECTION HEADING
+    20. SECTION HEADING
    ========================================================= */
 
 .section-heading {
@@ -1034,7 +992,6 @@ body::before {
         60px;
 
 }
-
 
 .section-number {
 
@@ -1051,13 +1008,12 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.7rem;
+        1.25rem;
 
     letter-spacing:
         0.08em;
 
 }
-
 
 .section-heading h2 {
 
@@ -1081,7 +1037,6 @@ body::before {
 
 }
 
-
 .section-heading h2 span {
 
     background:
@@ -1098,7 +1053,6 @@ body::before {
 
 }
 
-
 .section-heading p {
 
     max-width:
@@ -1108,16 +1062,15 @@ body::before {
         var(--text-muted);
 
     font-size:
-        0.95rem;
+        1.25rem;
 
     line-height:
         1.8;
 
 }
 
-
 /* =========================================================
-   21. ABOUT SECTION
+    21. ABOUT SECTION
    ========================================================= */
 
 .about-section {
@@ -1131,9 +1084,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   22. ABOUT INTRODUCTION
+    22. ABOUT INTRODUCTION
    ========================================================= */
 
 .about-introduction {
@@ -1152,7 +1104,6 @@ body::before {
 
 }
 
-
 .about-line {
 
     width:
@@ -1169,23 +1120,21 @@ body::before {
 
 }
 
-
 .about-introduction p {
 
     color:
         var(--text-secondary);
 
     font-size:
-        0.95rem;
+        1rem;
 
     line-height:
         1.9;
 
 }
 
-
 /* =========================================================
-   23. PROFILE GRID
+    23. PROFILE GRID
    ========================================================= */
 
 .profile-grid {
@@ -1201,9 +1150,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   24. PROFILE CARD
+    24. PROFILE CARD
    ========================================================= */
 
 .profile-card {
@@ -1225,7 +1173,6 @@ body::before {
 
 }
 
-
 .profile-card:hover {
 
     transform:
@@ -1239,9 +1186,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   25. PROFILE IMAGE
+    25. PROFILE IMAGE
    ========================================================= */
 
 .profile-image-wrapper {
@@ -1250,7 +1196,7 @@ body::before {
         relative;
 
     height:
-        320px;
+        600px;
 
     overflow:
         hidden;
@@ -1259,7 +1205,6 @@ body::before {
         var(--gradient-dark);
 
 }
-
 
 .profile-image {
 
@@ -1277,14 +1222,12 @@ body::before {
 
 }
 
-
 .profile-card:hover .profile-image {
 
     transform:
         scale(1.05);
 
 }
-
 
 .profile-number {
 
@@ -1319,13 +1262,12 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.65rem;
+        0.8rem;
 
 }
 
-
 /* =========================================================
-   26. PROFILE CONTENT
+    26. PROFILE CONTENT
    ========================================================= */
 
 .profile-content {
@@ -1334,7 +1276,6 @@ body::before {
         30px;
 
 }
-
 
 .profile-role {
 
@@ -1345,13 +1286,12 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.65rem;
+        0.8rem;
 
     letter-spacing:
         0.08em;
 
 }
-
 
 .profile-content h3 {
 
@@ -1369,7 +1309,6 @@ body::before {
 
 }
 
-
 .profile-bio {
 
     min-height:
@@ -1379,16 +1318,15 @@ body::before {
         var(--text-muted);
 
     font-size:
-        0.85rem;
+        1.1rem;
 
     line-height:
         1.8;
 
 }
 
-
 /* =========================================================
-   27. PROFILE INFORMATION
+    27. PROFILE INFORMATION
    ========================================================= */
 
 .profile-info {
@@ -1400,7 +1338,6 @@ body::before {
         1px solid var(--border);
 
 }
-
 
 .info-item {
 
@@ -1424,7 +1361,6 @@ body::before {
 
 }
 
-
 .info-label {
 
     color:
@@ -1434,13 +1370,12 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.6rem;
+        0.8rem;
 
     letter-spacing:
         0.06em;
 
 }
-
 
 .info-value {
 
@@ -1448,16 +1383,15 @@ body::before {
         var(--text-secondary);
 
     font-size:
-        0.78rem;
+        1.1rem;
 
     text-align:
         right;
 
 }
 
-
 /* =========================================================
-   28. SKILLS SECTION
+    28. SKILLS SECTION
    ========================================================= */
 
 .skills-section {
@@ -1467,9 +1401,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   29. SKILLS GRID
+    29. SKILLS GRID
    ========================================================= */
 
 .skills-grid {
@@ -1485,9 +1418,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   30. SKILL CARD
+    30. SKILL CARD
    ========================================================= */
 
 .skill-card {
@@ -1525,7 +1457,6 @@ body::before {
 
 }
 
-
 .skill-card::after {
 
     content:
@@ -1560,7 +1491,6 @@ body::before {
 
 }
 
-
 .skill-card:hover {
 
     transform:
@@ -1574,7 +1504,6 @@ body::before {
 
 }
 
-
 .skill-card:hover::after {
 
     background:
@@ -1582,9 +1511,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   31. SKILL ICON
+    31. SKILL ICON
    ========================================================= */
 
 .skill-icon {
@@ -1618,7 +1546,6 @@ body::before {
 
 }
 
-
 .skill-icon img {
 
     width:
@@ -1632,9 +1559,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   32. SKILL CONTENT
+    32. SKILL CONTENT
    ========================================================= */
 
 .skill-content {
@@ -1650,7 +1576,6 @@ body::before {
 
 }
 
-
 .skill-number {
 
     color:
@@ -1660,10 +1585,9 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.6rem;
+        0.9rem;
 
 }
-
 
 .skill-content h3 {
 
@@ -1674,10 +1598,9 @@ body::before {
         var(--font-primary);
 
     font-size:
-        1.35rem;
+        1.50rem;
 
 }
-
 
 .skill-content p {
 
@@ -1685,16 +1608,15 @@ body::before {
         var(--text-muted);
 
     font-size:
-        0.82rem;
+        1.1rem;
 
     line-height:
         1.7;
 
 }
 
-
 /* =========================================================
-   33. SKILL TAGS
+    33. SKILL TAGS
    ========================================================= */
 
 .skill-tags {
@@ -1712,7 +1634,6 @@ body::before {
         18px;
 
 }
-
 
 .skill-tags span {
 
@@ -1735,13 +1656,12 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.6rem;
+        0.9rem;
 
 }
 
-
 /* =========================================================
-   34. CONTACT SECTION
+    34. CONTACT SECTION
    ========================================================= */
 
 .contact-section {
@@ -1755,9 +1675,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   35. CONTACT CARD
+    35. CONTACT CARD
    ========================================================= */
 
 .contact-card {
@@ -1808,9 +1727,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   36. CONTACT CONTENT
+    36. CONTACT CONTENT
    ========================================================= */
 
 .contact-content {
@@ -1825,7 +1743,6 @@ body::before {
         650px;
 
 }
-
 
 .contact-content h2 {
 
@@ -1846,7 +1763,6 @@ body::before {
 
 }
 
-
 .contact-content h2 span {
 
     display:
@@ -1866,7 +1782,6 @@ body::before {
 
 }
 
-
 .contact-content p {
 
     max-width:
@@ -1879,16 +1794,15 @@ body::before {
         var(--text-muted);
 
     font-size:
-        0.9rem;
+        1.25rem;
 
     line-height:
         1.8;
 
 }
 
-
 /* =========================================================
-   37. EMAIL LINK
+    37. EMAIL LINK
    ========================================================= */
 
 .email-link {
@@ -1921,13 +1835,12 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.75rem;
+        1.25rem;
 
     transition:
         var(--transition);
 
 }
-
 
 .email-link img {
 
@@ -1938,7 +1851,6 @@ body::before {
         25px;
 
 }
-
 
 .email-link:hover {
 
@@ -1956,9 +1868,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   38. CONTACT DECORATION
+    38. CONTACT DECORATION
    ========================================================= */
 
 .contact-decoration {
@@ -1977,7 +1888,6 @@ body::before {
 
 }
 
-
 .decoration-circle {
 
     position:
@@ -1993,7 +1903,6 @@ body::before {
         50%;
 
 }
-
 
 .decoration-circle::before {
 
@@ -2013,7 +1922,6 @@ body::before {
         50%;
 
 }
-
 
 .decoration-line {
 
@@ -2039,7 +1947,6 @@ body::before {
         0.5;
 
 }
-
 
 .decoration-text {
 
@@ -2072,9 +1979,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   39. FOOTER
+    39. FOOTER
    ========================================================= */
 
 .footer {
@@ -2090,9 +1996,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   40. NEWSLETTER
+    40. NEWSLETTER
    ========================================================= */
 
 .newsletter {
@@ -2126,7 +2031,6 @@ body::before {
 
 }
 
-
 .newsletter-label {
 
     display:
@@ -2142,13 +2046,12 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.6rem;
+        1.25rem;
 
     letter-spacing:
         0.08em;
 
 }
-
 
 .newsletter h3 {
 
@@ -2159,10 +2062,9 @@ body::before {
         var(--font-primary);
 
     font-size:
-        1.4rem;
+        2rem;
 
 }
-
 
 .newsletter p {
 
@@ -2170,13 +2072,12 @@ body::before {
         var(--text-muted);
 
     font-size:
-        0.8rem;
+        1.25rem;
 
 }
 
-
 /* =========================================================
-   41. NEWSLETTER FORM
+    41. NEWSLETTER FORM
    ========================================================= */
 
 .newsletter-form {
@@ -2188,7 +2089,6 @@ body::before {
         min(100%, 430px);
 
 }
-
 
 .newsletter-form input {
 
@@ -2220,10 +2120,9 @@ body::before {
         var(--text);
 
     font-size:
-        0.8rem;
+        1.25rem;
 
 }
-
 
 .newsletter-form input::placeholder {
 
@@ -2232,14 +2131,12 @@ body::before {
 
 }
 
-
 .newsletter-form input:focus {
 
     border-color:
         var(--cyan);
 
 }
-
 
 .newsletter-form button {
 
@@ -2259,7 +2156,7 @@ body::before {
         white;
 
     font-size:
-        0.8rem;
+        1.25rem ;
 
     font-weight:
         600;
@@ -2272,7 +2169,6 @@ body::before {
 
 }
 
-
 .newsletter-form button:hover {
 
     box-shadow:
@@ -2280,9 +2176,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   42. FOOTER BOTTOM
+    42. FOOTER BOTTOM
    ========================================================= */
 
 .footer-bottom {
@@ -2300,7 +2195,6 @@ body::before {
         20px;
 
 }
-
 
 .footer-brand {
 
@@ -2327,20 +2221,18 @@ body::before {
 
 }
 
-
 .footer-bottom p {
 
     color:
         var(--text-muted);
 
     font-size:
-        0.7rem;
+        0.9rem;
 
     text-align:
         center;
 
 }
-
 
 .footer-code {
 
@@ -2351,16 +2243,15 @@ body::before {
         var(--font-code);
 
     font-size:
-        0.6rem;
+        0.9rem;
 
     text-align:
         right;
 
 }
 
-
 /* =========================================================
-   43. ACCESSIBILITY
+    43. ACCESSIBILITY
    ========================================================= */
 
 .sr-only {
@@ -2394,9 +2285,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   44. SELECTION
+    44. SELECTION
    ========================================================= */
 
 ::selection {
@@ -2409,9 +2299,8 @@ body::before {
 
 }
 
-
 /* =========================================================
-   45. SCROLLBAR
+    45. SCROLLBAR
    ========================================================= */
 
 ::-webkit-scrollbar {
@@ -2421,14 +2310,12 @@ body::before {
 
 }
 
-
 ::-webkit-scrollbar-track {
 
     background:
         #000916;
 
 }
-
 
 ::-webkit-scrollbar-thumb {
 
@@ -2440,7 +2327,6 @@ body::before {
 
 }
 
-
 ::-webkit-scrollbar-thumb:hover {
 
     background:
@@ -2448,13 +2334,11 @@ body::before {
 
 }
 
-
 /* =========================================================
-   46. TABLET
+    46. TABLET
    ========================================================= */
 
 @media (max-width: 900px) {
-
 
     /* ---------- NAV ---------- */
 
@@ -2465,14 +2349,12 @@ body::before {
 
     }
 
-
     .nav-menu {
 
         gap:
             20px;
 
     }
-
 
     /* ---------- HERO ---------- */
 
@@ -2483,7 +2365,6 @@ body::before {
 
     }
 
-
     /* ---------- PROFILE ---------- */
 
     .profile-grid {
@@ -2492,7 +2373,6 @@ body::before {
             1fr;
 
     }
-
 
     /* ---------- SKILLS ---------- */
 
@@ -2503,7 +2383,6 @@ body::before {
 
     }
 
-
     /* ---------- CONTACT ---------- */
 
     .contact-card {
@@ -2512,7 +2391,6 @@ body::before {
             45px;
 
     }
-
 
     .contact-decoration {
 
@@ -2523,7 +2401,6 @@ body::before {
             220px;
 
     }
-
 
     /* ---------- FOOTER ---------- */
 
@@ -2537,7 +2414,6 @@ body::before {
 
     }
 
-
     .newsletter-form {
 
         width:
@@ -2547,13 +2423,11 @@ body::before {
 
 }
 
-
 /* =========================================================
-   47. MOBILE
+    47. MOBILE
    ========================================================= */
 
 @media (max-width: 600px) {
-
 
     /* ---------- NAV ---------- */
 
@@ -2570,7 +2444,6 @@ body::before {
 
     }
 
-
     .brand-mark {
 
         width:
@@ -2581,14 +2454,12 @@ body::before {
 
     }
 
-
     .brand-name {
 
         font-size:
             1rem;
 
     }
-
 
     .nav-menu {
 
@@ -2597,7 +2468,6 @@ body::before {
 
     }
 
-
     .nav-link {
 
         font-size:
@@ -2605,16 +2475,14 @@ body::before {
 
     }
 
-
     /* ---------- HERO ---------- */
 
     .hero {
 
         padding:
-            130px 6% 80px;
+            130px 6% 130px;
 
     }
-
 
     .hero-image {
 
@@ -2623,14 +2491,67 @@ body::before {
 
     }
 
-
     .hero-title {
 
+        max-width:
+            900px;
+
+        margin-bottom:
+            32px;
+
+        font-family:
+            var(--font-primary);
+
         font-size:
-            clamp(2.7rem, 15vw, 4.5rem);
+            clamp(3.2rem, 7.5vw, 6.8rem);
+
+        font-weight:
+            800;
+
+        line-height:
+            0.9;
+
+        letter-spacing:
+            -0.065em;
+
+        overflow:
+            visible;
 
     }
 
+    .hero-title span {
+
+        display:
+            block;
+
+        padding-bottom:
+            0.05em;
+
+        background:
+            var(--gradient-text);
+
+        -webkit-background-clip:
+            text;
+
+        background-clip:
+            text;
+
+        -webkit-text-fill-color:
+            transparent;
+
+        color:
+            transparent;
+
+        line-height:
+            0.82;
+
+        overflow:
+            visible;
+
+        text-shadow:
+            0 0 18px rgba(39, 187, 255, 0.08);
+
+}
 
     .hero-description {
 
@@ -2639,14 +2560,12 @@ body::before {
 
     }
 
-
     .hero-subtitle {
 
         font-size:
             0.75rem;
 
     }
-
 
     .hero-buttons {
 
@@ -2661,7 +2580,6 @@ body::before {
 
     }
 
-
     .btn {
 
         width:
@@ -2669,14 +2587,12 @@ body::before {
 
     }
 
-
     .hero-scroll {
 
         display:
             none;
 
     }
-
 
     /* ---------- SECTION ---------- */
 
@@ -2687,7 +2603,6 @@ body::before {
 
     }
 
-
     .section-heading {
 
         margin-bottom:
@@ -2695,14 +2610,12 @@ body::before {
 
     }
 
-
     .section-heading h2 {
 
         font-size:
             2.3rem;
 
     }
-
 
     /* ---------- ABOUT ---------- */
 
@@ -2713,14 +2626,12 @@ body::before {
 
     }
 
-
     .profile-image-wrapper {
 
         height:
             280px;
 
     }
-
 
     .profile-content {
 
@@ -2729,14 +2640,12 @@ body::before {
 
     }
 
-
     .profile-content h3 {
 
         font-size:
             1.7rem;
 
     }
-
 
     .info-item {
 
@@ -2745,14 +2654,12 @@ body::before {
 
     }
 
-
     .info-value {
 
         max-width:
             55%;
 
     }
-
 
     /* ---------- SKILLS ---------- */
 
@@ -2766,7 +2673,6 @@ body::before {
 
     }
 
-
     /* ---------- CONTACT ---------- */
 
     .contact-card {
@@ -2779,7 +2685,6 @@ body::before {
 
     }
 
-
     .contact-decoration {
 
         display:
@@ -2787,14 +2692,12 @@ body::before {
 
     }
 
-
     .contact-content h2 {
 
         font-size:
             2.3rem;
 
     }
-
 
     .email-link {
 
@@ -2805,7 +2708,6 @@ body::before {
             hidden;
 
     }
-
 
     .email-link span {
 
@@ -2820,7 +2722,6 @@ body::before {
 
     }
 
-
     /* ---------- FOOTER ---------- */
 
     .newsletter {
@@ -2829,7 +2730,6 @@ body::before {
             25px;
 
     }
-
 
     .newsletter-form {
 
@@ -2841,7 +2741,6 @@ body::before {
 
     }
 
-
     .newsletter-form input {
 
         border-right:
@@ -2852,14 +2751,12 @@ body::before {
 
     }
 
-
     .newsletter-form button {
 
         border-radius:
             var(--radius-sm);
 
     }
-
 
     .footer-bottom {
 
@@ -2870,7 +2767,6 @@ body::before {
             center;
 
     }
-
 
     .footer-brand,
     .footer-bottom p,
